@@ -13,3 +13,8 @@ results
 
 npm-debug.log
 node_modules
+
+app/build
+app/cache
+
+.DS_Store
