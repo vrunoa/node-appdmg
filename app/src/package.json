@@ -1,0 +1,35 @@
+{
+  "main": "index.html",
+  "name": "node-appdmg-app",
+  "description": "Node apppmdg Desktop app",
+  "version": "0.0.0",
+	"node" : true, 
+	"no-edit-menu": false,
+	"keywords": [
+    "javascript",
+    "js",
+    "node",
+    "grunt",
+    "node",
+    "webkit",
+    "dmg",
+		"desktop"
+  ],
+  "window": {
+    "title": "Node app dmg Creator",
+    "icon": "link.png",
+    "toolbar": true,
+    "frame": false,
+	  "width": 1100,
+    "height": 618,
+    "min_width": 990,
+    "min_height": 556,
+    "resizable": true,
+		"position" : "center"
+  },
+  "webkit": {
+    "plugin": true,
+		"page-cache": false
+  },
+	"debug" : 0
+ }
